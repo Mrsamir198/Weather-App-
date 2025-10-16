@@ -12,7 +12,7 @@ function App() {
   const [cityName, setCityName] = useState("");
   const [weatherIcon, setWeatherIcon] = useState("01d");
 
-  const API_KEY = "3b66391882d758fe1595f0a8e03a798d";
+  const API_KEY = "3b66391882d758fe1595f0a8e03a653d";
 
   const fetchWeather = async () => {
     console.log(search);
